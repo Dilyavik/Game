@@ -388,6 +388,7 @@
 "Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vPickupItem.cs"
 "Assets/LeverManager.cs"
 "Assets/LookAtPlayer.cs"
+"Assets/MainMenu.cs"
 "Assets/PlayerHealth.cs"
 "Assets/RunBehaviour.cs"
 "Assets/Scripts/HumanController.cs"
