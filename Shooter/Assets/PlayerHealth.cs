@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public GameOverUIManager manager;
     public int maxHealth = 100;
     private int currentHealth;
 
@@ -35,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
+        manager.ShowGameOver();
     }
 
     void UpdateHealthBar()

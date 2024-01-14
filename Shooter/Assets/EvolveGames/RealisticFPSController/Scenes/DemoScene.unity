@@ -770,7 +770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!223 &232739274
 Canvas:
   m_ObjectHideFlags: 0
@@ -6984,6 +6984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ed680242377674ab7e811bf7878640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 232739276}
   maxHealth: 100
   healthBar: {fileID: 448605356}
 --- !u!114 &1564068728
@@ -6998,8 +6999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a141bedb83a939428dbb7c3a0925839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemiesRemaining: 0
-  gameOverUiManager: {fileID: 0}
+  gameOverUiManager: {fileID: 232739276}
 --- !u!1 &1564848711
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,6 @@ public class GameOverUIManager : MonoBehaviour
     public Text gameOverText;
 
 
-
     void Start()
     {
         victoryText.gameObject.SetActive(false);
