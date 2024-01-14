@@ -18,7 +18,6 @@ public class EnemyScript : MonoBehaviour
     public Transform shootPoint;
 
     private float shootingTimer = 0f;
-    public GameOverUIManager gameOverUIManager;
 
 
     private void Start()
@@ -75,7 +74,6 @@ public class EnemyScript : MonoBehaviour
         if (currentHealth <= 0)
         {
             DestroyEnemy();
-            gameOverUIManager.ShowGameOver();
         }
     }
 
