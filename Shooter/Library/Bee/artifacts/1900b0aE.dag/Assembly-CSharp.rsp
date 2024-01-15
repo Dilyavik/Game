@@ -390,10 +390,12 @@
 "Assets/LookAtPlayer.cs"
 "Assets/MainMenu.cs"
 "Assets/PlayerHealth.cs"
+"Assets/PlayerStatistic.cs"
 "Assets/RunBehaviour.cs"
 "Assets/Scripts/HumanController.cs"
 "Assets/ThirdPersonCameraController.cs"
 "Assets/Weapon.cs"
+"Assets/WeaponSwitch.cs"
 -langversion:9.0
 
 /deterministic

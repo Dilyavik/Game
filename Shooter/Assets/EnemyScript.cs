@@ -28,16 +28,16 @@ public class EnemyScript : MonoBehaviour
 
     private void Update()
     {
-        // Проверяем дистанцию до игрока
+
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
         if (distanceToPlayer <= shootingRange)
         {
-            // Поворачиваем бота в сторону игрока
+
             Vector3 targetDirection = player.position - transform.position;
             transform.rotation = Quaternion.LookRotation(targetDirection);
 
-            // Стреляем с заданной периодичностью
+
             shootingTimer -= Time.deltaTime;
             if (shootingTimer <= 0f)
             {
@@ -49,7 +49,7 @@ public class EnemyScript : MonoBehaviour
 
     void Shoot()
     {
-        // Вызываем метод стрельбы у объекта "GunController"
+
         gunTransform.GetComponent<GunController>().Shoot(damage, shootPoint);
     }
 
