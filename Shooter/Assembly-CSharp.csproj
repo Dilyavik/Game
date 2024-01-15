@@ -91,6 +91,7 @@
     <Compile Include="Assets\GameOverUIManager.cs" />
     <Compile Include="Assets\EvolveGames\RealisticFPSController\Scripts\HandsHolder.cs" />
     <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\SaveData.cs" />
     <Compile Include="Assets\EnemyScript.cs" />
     <Compile Include="Assets\PlayerStatistic.cs" />
     <Compile Include="Assets\EvolveGames\RealisticFPSController\Scripts\Viewpoint.cs" />

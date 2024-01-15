@@ -1576,7 +1576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626074a7eae93c478c2aab8ac8c7ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
+  camera: {fileID: 648639555}
 --- !u!114 &283714280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4386,7 +4386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626074a7eae93c478c2aab8ac8c7ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
+  camera: {fileID: 648639555}
 --- !u!114 &849235747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8116,7 +8116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   healthBar: {fileID: 168456164}
-  player: {fileID: 0}
+  player: {fileID: 648639555}
   shootingRange: 15
   shootingCooldown: 0.18
   damage: 5

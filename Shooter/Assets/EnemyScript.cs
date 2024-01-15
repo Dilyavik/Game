@@ -70,10 +70,16 @@ public class EnemyScript : MonoBehaviour
 
         UpdateHealthBar();
 
-
+        int loseCount = PlayerPrefs.GetInt("win");
         if (currentHealth <= 0)
         {
             DestroyEnemy();
+
+            
+
+            PlayerPrefs.SetInt("win", loseCount + 1);
+
+            PlayerPrefs.Save();
         }
     }
 

@@ -392,6 +392,7 @@
 "Assets/PlayerHealth.cs"
 "Assets/PlayerStatistic.cs"
 "Assets/RunBehaviour.cs"
+"Assets/SaveData.cs"
 "Assets/Scripts/HumanController.cs"
 "Assets/ThirdPersonCameraController.cs"
 "Assets/Weapon.cs"

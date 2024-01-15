@@ -42,8 +42,11 @@ public class PlayerHealth : MonoBehaviour
     {
         Destroy(gameObject);
         manager.ShowGameOver();
-        statistic.LossPlayer();
 
+        int loseCount = PlayerPrefs.GetInt("lose");
+        PlayerPrefs.SetInt("lose", loseCount + 1);
+
+        PlayerPrefs.Save();
     }
 
     void UpdateHealthBar()

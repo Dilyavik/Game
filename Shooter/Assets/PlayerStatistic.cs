@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class PlayerStatistic : MonoBehaviour
 {
-    public int LossesCount;
-    public int WinsCount;
+    private int lossesCount;
+    private int winsCount;
 
     public TextMeshProUGUI lossTextMeshPro;
     public TextMeshProUGUI winTextMeshPro;
@@ -20,20 +20,23 @@ public class PlayerStatistic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        WinPlayer();
+        LossPlayer();
     }
 
 
     public void WinPlayer()
     {
-        WinsCount++;
-        winTextMeshPro.text = "Побед: " + WinsCount;
+        winsCount = PlayerPrefs.GetInt("win");
+        winTextMeshPro.text = "Побед: " + winsCount;
     }
 
 
     public void LossPlayer()
     {
-        WinsCount++;
-        lossTextMeshPro.text = "Поражений: " + LossesCount;
+        lossesCount = PlayerPrefs.GetInt("lose");
+
+        //LossesCount++;
+        lossTextMeshPro.text = "Поражений: " + lossesCount;
     }
 }
